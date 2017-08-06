@@ -1,0 +1,18 @@
+// scss file for spring.ox
+
+$greenlight: #79895A;
+$green: #96C800;
+$greenfaded: #A5B668;
+$greendark: #507B43;
+$greendarker: #24300A;
+$whitefaded: #bbb;
+
+body {
+  background-color: #123456;
+	background-image: url('../img/oxguru.jpg');
+  background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0px -1px;
+}
+
+@import "_gnubox.scss";

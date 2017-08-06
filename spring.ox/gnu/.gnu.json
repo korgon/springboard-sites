@@ -1,0 +1,33 @@
+{
+    "type": "v3",
+    "version": "1.0.0",
+    "description": "AJAX UI v3",
+    "created": 1476811603312,
+    "creator": "kevin",
+    "tags": [],
+    "settings": {
+        "cart": {
+            "label": "platform",
+            "value": "custom",
+            "default": "",
+            "type": "cart",
+            "description": "shopping cart platform"
+        },
+        "siteid": {
+            "label": "site id",
+            "value": "oxoxox",
+            "default": "",
+            "type": "siteid",
+            "description": "six digit alphanumeric"
+        },
+        "context": {
+            "label": "additional context",
+            "value": "",
+            "default": "",
+            "type": "text",
+            "description": "additional context to add to the script tag"
+        }
+    },
+    "variables": {},
+    "styles": {}
+}

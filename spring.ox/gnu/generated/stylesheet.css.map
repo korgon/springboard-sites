@@ -1,0 +1,11 @@
+{
+	"version": 3,
+	"file": "stylesheet.css",
+	"sources": [
+		"../scss/gnu.scss",
+		"../scss/._variables.scss",
+		"../scss/._modules.scss"
+	],
+	"mappings": "AAIA,AACC,IADG,CACH,GAAG,CAAC;EACH,UAAU,EAAE,IAAK;CACjB",
+	"names": []
+}

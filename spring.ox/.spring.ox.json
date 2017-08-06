@@ -1,0 +1,54 @@
+{
+    "name": "spring.ox",
+    "type": "site",
+    "default_url": "spring.ox.html",
+    "proxy": {
+        "enable": {
+            "label": "enable proxy",
+            "value": false,
+            "default": false,
+            "type": "boolean",
+            "description": "utilize proxy service"
+        },
+        "url": {
+            "label": "hostname",
+            "value": "https://www.google.com",
+            "default": "",
+            "type": "url",
+            "description": "create proxy using this url"
+        },
+        "catalog": {
+            "label": "catalog",
+            "value": "gnu",
+            "default": "smc",
+            "type": "catalog",
+            "description": "inject catalog into the site"
+        },
+        "context": {
+            "label": "script context",
+            "value": "",
+            "default": "",
+            "type": "catalog",
+            "description": "additional context to add to the script tag"
+        }
+    },
+    "created": 1437670111870,
+    "thumb": "thumbs/1476812136252.png",
+    "cloud_files": [
+        "gnu/generated/loader.js",
+        "gnu/generated/gnu.js",
+        "gnu/generated/stylesheet.css",
+        "gnu/generated/templates.html"
+    ],
+    "history": [],
+    "tags": [],
+    "settings": {
+        "siteid": {
+            "label": "site id",
+            "value": "oxoxox",
+            "default": "",
+            "type": "siteid",
+            "description": "six digit alphanumeric"
+        }
+    }
+}

@@ -1,0 +1,80 @@
+// gnu console box
+#box {
+  width: 420px;
+  height: auto;
+  color: #fff;
+  position: absolute;
+  top: 66px;
+  left: 33px;
+  padding: 10px;
+  border: 1px solid $greenlight;
+  background-color: rgba(0, 0, 0, 0.7);
+  box-shadow: 3px 3px 9px $greendarker;
+  .codeline {
+    display: block;
+    i {
+      color: $greenfaded;
+      font-style: normal;
+    }
+    b {
+      color: $green;
+      font-weight: normal;
+    }
+    u {
+      color: $whitefaded;
+      text-decoration: none;
+    }
+    .prompt {
+      color: $greendark;
+    }
+  }
+  .cursor {
+    background-color: $greenfaded;
+    -moz-animation-duration: 777ms;
+    -moz-animation-name: blink;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-direction: alternate;
+
+    -webkit-animation-duration: 777ms;
+    -webkit-animation-name: blink;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+
+    animation-duration: 777ms;
+    animation-name: blink;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+}
+
+
+
+@-moz-keyframes blink {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes blink {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes blink {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}

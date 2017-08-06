@@ -1,0 +1,88 @@
+body {
+  background-color: #123456;
+  background-image: url("../img/oxguru.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0px -1px;
+}
+
+#box {
+  width: 420px;
+  height: auto;
+  color: #fff;
+  position: absolute;
+  top: 66px;
+  left: 33px;
+  padding: 10px;
+  border: 1px solid #79895A;
+  background-color: rgba(0, 0, 0, 0.7);
+  box-shadow: 3px 3px 9px #24300A;
+}
+
+#box .codeline {
+  display: block;
+}
+
+#box .codeline i {
+  color: #A5B668;
+  font-style: normal;
+}
+
+#box .codeline b {
+  color: #96C800;
+  font-weight: normal;
+}
+
+#box .codeline u {
+  color: #bbb;
+  text-decoration: none;
+}
+
+#box .codeline .prompt {
+  color: #507B43;
+}
+
+#box .cursor {
+  background-color: #A5B668;
+  -moz-animation-duration: 777ms;
+  -moz-animation-name: blink;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-direction: alternate;
+  -webkit-animation-duration: 777ms;
+  -webkit-animation-name: blink;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-duration: 777ms;
+  animation-name: blink;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@-moz-keyframes blink {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes blink {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes blink {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+/*# sourceMappingURL=spring.ox.css.map */
