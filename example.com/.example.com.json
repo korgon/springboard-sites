@@ -1,0 +1,50 @@
+{
+    "creator": "",
+    "thumb": "",
+    "created": 0,
+    "type": "template",
+    "settings": {
+        "siteid": {
+            "label": "site id",
+            "value": "",
+            "default": "",
+            "type": "siteid",
+            "description": "six digit alphanumeric"
+        }
+    },
+    "name": "example.com",
+    "history": [],
+    "tags": [],
+    "default_url": "index.html",
+    "cloud_files": [],
+    "proxy": {
+        "enable": {
+            "label": "enable proxy",
+            "value": false,
+            "default": false,
+            "type": "boolean",
+            "description": "work on a site directly"
+        },
+        "url": {
+            "label": "hostname",
+            "value": "",
+            "default": "",
+            "type": "url",
+            "description": "create proxy using this url"
+        },
+        "catalog": {
+            "label": "catalog",
+            "value": "smc",
+            "default": "smc",
+            "type": "catalog",
+            "description": "inject catalog into the site"
+        },
+        "context": {
+            "label": "script context",
+            "value": "",
+            "default": "",
+            "type": "catalog",
+            "description": "additional context to add to the script tag"
+        }
+    }
+}
